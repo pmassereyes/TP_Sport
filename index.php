@@ -6,6 +6,7 @@ $club = array();
 $club[1] = new Club(1, "Dijon", 63);
 $club[2] = new Club(2, "PSG", 67);
 $club[3] = new Club(3, "Nantes", 65);
+echo "Liste des clubs : " . "<br>";
 foreach($club as $clubs){
     echo $clubs->getIdClub() . " " . $clubs->getNomClub() . "\n" . "<br>";
 }
