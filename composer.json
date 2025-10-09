@@ -1,0 +1,15 @@
+{
+    "name": "pablomassereyes/tp_sport",
+    "autoload": {
+        "psr-4": {
+            "\\TpSport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pmassereyes",
+            "email": "pablomassereyes935@gmail.com"
+        }
+    ],
+    "require": {}
+}
